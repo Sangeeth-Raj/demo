@@ -6,22 +6,36 @@
     <style>
         .city:hover
         {
-            background-color: khaki;
-            color: rosybrown;
+            background-color: rgb(139, 57, 32);
+            color:turquoise;
             padding: 20px;
             width: 250px;
             border: 2px solid red;
             margin: 20px;
-            
         }
         #a
         {
             color: red;
-            padding: auto;
+            padding: left;
             border: 1px solid black;
             width: 300px;
             text-align:center;
-            
+            animation-delay: -3s;
+            margin-left: 400px;
+            margin-bottom: px;
+        }
+        .button
+        {
+            width: 100px;
+            height: 100px;
+        }
+        #main
+        {
+            background-color: silver;
+        }
+        input[type=text]:focus
+        {
+            background-color: lightblue;
         }
     </style>
     <title>Document</title>
@@ -40,6 +54,7 @@
         East Calicut<br>
         6789012
     </address>
+    <div id="main">
     <table>
         <div class="city">
             <h2>London</h2>
@@ -61,6 +76,17 @@
         <h1>hai</h1>
         
     </div>
-    <button onclick="dono">submit</button>
+    <div class="button">
+        <button>submit</button>
+    </div>
+    <div>
+        <form>
+            Name : <input type="text" width="90px"><br><br>
+            Pass : <input type="password" width="90px"><br><br>
+            Nmbr : <input type="number" width="90px">
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
